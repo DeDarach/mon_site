@@ -1,0 +1,111 @@
+body {
+    background: linear-gradient(RGB(0, 0, 0), RGB(19, 14, 10), RGB(18, 13, 22));
+    
+}
+nav.accueil ul li.btn{
+    text-align: left;
+    display: inline-block;
+    list-style-type: none;
+    background-color: RGB(0, 0, 0);
+}
+nav.accueil ul li.btn a{
+    color:  rgb(47, 174, 47)   ;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 15px;
+    transition: 0.2s all;
+}
+nav.accueil ul li.btn:hover a{
+    color: white;
+    background-color: rgb(47, 174, 47);
+    border-style:outset;
+    border-radius: 60%;
+}
+p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(47, 174, 47);
+    text-align: center;
+    margin-bottom: 10;
+}
+h3{
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(47, 174, 47);
+    text-align: center;
+}
+.titre_qualite {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(47, 174, 47);
+    text-align: center;
+    margin-right: 18%;
+}
+div.qualite li {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 18%;
+    list-style: none;
+    font-size: 18px;
+}
+h5 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: rgb(47, 174, 47);
+    text-align: center;
+}
+img {
+    float: left;
+    position: relative;
+    border-radius: 100%;
+}
+div.images img {
+    border-radius: 0%;
+}
+.text_cliquez {
+    text-align: center;
+    margin-left:8%;
+}
+div.cliquez a {
+    list-style-type: none;
+    margin-left: 5%;
+    color: rgb(47, 174, 47);
+}
+li{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+table {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkgreen;
+}
+.knowledge {
+    color:rgb(47, 174, 47);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    text-align: center;
+
+}
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    font-family:'Times New Roman', Times, serif;
+    margin-right: 10%;
+}
+.fin {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 9px;
+    text-align: left;
+}
+.reseaux {
+    margin-left: 48%;
+}
